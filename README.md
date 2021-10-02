@@ -14,11 +14,4 @@ Notice that if we *swap* any two numbers **a**, *b* in a given block, and then m
 <img src = doc/rokudoku1.png> 
 </center>
       
- <p>
- Our current quest is to solve the following problem: given a 6 by 6 sudoku, what is the set of all sudokus  that are connected to it by a finite number of swaps? In particular, are all the 6 by 6 sudokus related by a finite number of swaps?
- 
- <p>
- The main class in the repository uses a tree structure to generate all the unique sudokus related to a given sudoku. 
- 
- <p>
- The project is still undergoing at the moment.
+
