@@ -17,7 +17,7 @@
 <body>
 	<h1> ROKUDOKU !</h1>
 	<br>
-        <form action="Rokudoku_obradi.php" method="POST">
+        <form action="rokudoku_obradi.php" method="POST">
 		Unesi svoje ime:
 		<input type="text" name="ime" />
 		<select name="ploca">
