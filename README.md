@@ -1,24 +1,5 @@
 # Rokudoku
 
-<p>
-A *6 by 6 sudoku* (a *rokudoku*) is defined as a 6 by 6 grid such that the numbers {1, 2, ..., 6} appears on each column, row, and 2 by 3 blocks exactly once. An example of a rokudoku is as follows:
-
-<center>
-<img src = doc/rokudoku2.png> 
-</center>
-
-<p>
-Notice that if we *swap* any two numbers $a$, $b$ in a given block, and then modify the other blocks by only swapping the positions of $a$, $b$, we will get  a unique legitimate sudoku. For example, if we swap the position of $1$ and $5$ in the block on the left-upper corner, we will get a new sudouku where each block is different from before:
-
-<center>
-<img src = doc/rokudoku1.png> 
-</center>
+The puzzle is set on a six by six board divided into non-overlapping three by two cells. The object is to place the numbers 1 to 6 on the board so that each row, column or cell contains each symbol exactly once. The name comes from "Roku", the Japanese word for 6
       
- <p>
- Our current quest is to solve the following problem: given a 6 by 6 sudoku, what is the set of all sudokus  that are connected to it by a finite number of swaps? In particular, are all the 6 by 6 sudokus related by a finite number of swaps?
- 
- <p>
- The main class in the repository uses a tree structure to generate all the unique sudokus related to a given sudoku. 
- 
- <p>
- The project is still undergoing at the moment.
+
